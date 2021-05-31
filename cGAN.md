@@ -2,11 +2,13 @@
 
 * #### Conditional Generative Adversarial Nets
 
+  * Condition Variable을 Input에 추가하는 단순한 방법으로 output의 mode를 제어하는 방법을 제안함
+
+
 * #### 등장 배경
 
-  * GAN noise vector를 받아서 output을 생성하는데, 이때 생성되는 output(mode)의 Class를 사람이 제어할 수 없었음. 
+  * GAN은 noise vector를 받아서 output을 생성하는데, 이때 생성되는 output의 Class(mode)를 제어할 수 없었음
 
-  * 본 논문에서는 Condition variable y를 사용해 생성되는 mode를 제어함
 
     
 
